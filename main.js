@@ -2,10 +2,10 @@
 var mainState = {  
     preload: function() {  
         // Here we preload the assets
-    game.load.image('paddle', 'assest/paddle1.png');
-    game.load.image('brick', 'assest/rsz_brick1.png');
-    game.load.image('ball', 'assest/ball1.png');
-    this.game.load.image("background", "assest/background1.png");
+    game.load.image('paddle', 'content/paddle1.png');
+    game.load.image('brick', 'content/rsz_brick1.png');
+    game.load.image('ball', 'content/ball1.png');
+    this.game.load.image("background", "content/background1.png");
     },
 
     create: function() {  
